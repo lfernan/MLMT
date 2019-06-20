@@ -116,7 +116,7 @@ public class MutantTest {
 	@Order(4)
 	void serverErrorNullSequence() throws Exception {
 		mockMvc.perform(post(BASE_MUTANT_PATH).contentType(MediaType.APPLICATION_JSON)
-				.content(objectMapper.writeValueAsString(adnNull))).andExpect(status().isForbidden());
+				.content(objectMapper.writeValueAsString(adnNull))).andExpect(status().isBadRequest());
 
 	}
 }

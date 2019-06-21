@@ -14,9 +14,9 @@ La aplicación fue realizada con
 
 ### Serivicio
     EL endpoint tiene provisto un explorador de HAL Browser 
-```shell
+
 http://ec2-18-219-28-180.us-east-2.compute.amazonaws.com:8080/
-```
+
 > POST HTTP METHOD /mutant
 ```shell
 Ejemplo JSON de peticion

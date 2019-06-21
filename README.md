@@ -42,7 +42,9 @@ Ejemplo JSON de respuesta
 
 ## Test
 
+https://mlmt-lfernan.s3.us-east-2.amazonaws.com/reports/jacoco/jacocoHtml/index.html
 
+https://mlmt-lfernan.s3.us-east-2.amazonaws.com/reports/tests/test/index.html
 
 ## Autor
 

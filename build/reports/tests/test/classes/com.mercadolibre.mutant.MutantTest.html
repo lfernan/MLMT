@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MutantTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MutantTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mercadolibre.mutant.html">com.mercadolibre.mutant</a> &gt; MutantTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.700s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">mutant()</td>
+<td class="success">0.918s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">notMutant()</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">serverError()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">serverErrorNullSequence()</td>
+<td class="success">0.025s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">stats()</td>
+<td class="success">2.734s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:36:45.858 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+23:36:45.901 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+23:36:45.966 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.mercadolibre.mutant.MutantTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+23:36:46.000 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mercadolibre.mutant.MutantTest], using SpringBootContextLoader
+23:36:46.011 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mercadolibre.mutant.MutantTest]: class path resource [com/mercadolibre/mutant/MutantTest-context.xml] does not exist
+23:36:46.012 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.mercadolibre.mutant.MutantTest]: class path resource [com/mercadolibre/mutant/MutantTestContext.groovy] does not exist
+23:36:46.012 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.mercadolibre.mutant.MutantTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+23:36:46.014 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mercadolibre.mutant.MutantTest]: MutantTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:36:46.111 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.mercadolibre.mutant.MutantTest]
+23:36:46.266 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/leandro/Documentos/MLMT/build/classes/java/main/com/mercadolibre/mutant/MutantApplication.class]
+23:36:46.267 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mercadolibre.mutant.MutantApplication for test class com.mercadolibre.mutant.MutantTest
+23:36:46.587 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.mercadolibre.mutant.MutantTest]: using defaults.
+23:36:46.588 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+23:36:46.628 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5ceb5ada, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3d333854, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3da4fbe3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2ead5be8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2896e96d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@c4385b3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@16221c3b, org.springframework.test.context.event.EventPublishingTestExecutionListener@5214770c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4d5621a2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5d284ba6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5bed57fc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2ab0f79a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5697985f]
+23:36:46.637 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@40278e91 testClass = MutantTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1cf62c6a testClass = MutantTest, locations = '{}', classes = '{class com.mercadolibre.mutant.MutantApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@441db6d7, [ImportsContextCustomizer@536b08e1 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3417af1d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@53141f1c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1939751d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+23:36:46.692 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v2.2.0.BUILD-SNAPSHOT)
+
+2019-06-20 23:36:47.359  INFO 29403 --- [    Test worker] com.mercadolibre.mutant.MutantTest       : Starting MutantTest on leandro-HP-ProBook-640-G2 with PID 29403 (started by leandro in /home/leandro/Documentos/MLMT)
+2019-06-20 23:36:47.363  INFO 29403 --- [    Test worker] com.mercadolibre.mutant.MutantTest       : No active profile set, falling back to default profiles: default
+2019-06-20 23:36:51.130  WARN 29403 --- [    Test worker] Firestore                                : The behavior for java.util.Date objects stored in Firestore is going to change AND YOUR APP MAY BREAK.
+To hide this warning and ensure your app does not break, you need to add the following code to your app before calling any other Cloud Firestore methods:
+
+FirestoreOptions options = 
+  FirestoreOptions.newBuilder().setTimestampsInSnapshotsEnabled(true).build();
+Firestore firestore = options.getService();
+
+With this change, timestamps stored in Cloud Firestore will be read back as com.google.cloud.Timestamp objects instead of as system java.util.Date objects. So you will also need to update code expecting a java.util.Date to instead expect a Timestamp. For example:
+
+// Old:
+java.util.Date date = (java.util.Date) snapshot.get(&quot;created_at&quot;);
+// New:
+Timestamp timestamp = (Timestamp) snapshot.get(&quot;created_at&quot;);
+java.util.Date date = timestamp.toDate();
+
+Please audit all existing usages of java.util.Date when you enable the new behavior. In a future release, the behavior will be changed to the new behavior, so if you do not follow these steps, YOUR APP MAY BREAK.
+2019-06-20 23:36:51.136  WARN 29403 --- [    Test worker] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-06-20 23:36:51.136  WARN 29403 --- [    Test worker] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-06-20 23:36:51.137  WARN 29403 --- [    Test worker] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-06-20 23:36:53.481  INFO 29403 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-06-20 23:36:53.481  INFO 29403 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-06-20 23:36:53.503  INFO 29403 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-20 23:36:53.546  INFO 29403 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 65 ms
+2019-06-20 23:36:53.598  INFO 29403 --- [    Test worker] com.mercadolibre.mutant.MutantTest       : Started MutantTest in 6.887 seconds (JVM running for 9.286)
+2019-06-20 23:36:57.315  WARN 29403 --- [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity&lt;java.lang.String&gt; com.mercadolibre.mutant.controller.MutantRestController.mutant(com.mercadolibre.mutant.pojo.Sequence) throws com.mercadolibre.mutant.exception.MutantException with 2 errors: [Field error in object 'sequence' on field 'adn': rejected value [null]; codes [NotNull.sequence.adn,NotNull.adn,NotNull.java.util.List,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sequence.adn,adn]; arguments []; default message [adn]]; default message [La secuencia de adn no puede ser nul]] [Field error in object 'sequence' on field 'adn': rejected value [null]; codes [NotEmpty.sequence.adn,NotEmpty.adn,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sequence.adn,adn]; arguments []; default message [adn]]; default message [La secuencia de adn no puede ser vacia]] ]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.4.1</a> at 20/06/2019 23:36:57</p>
+</div>
+</div>
+</body>
+</html>

@@ -42,7 +42,7 @@ Ejemplo JSON de respuesta
 
 ## Test
 
-
+[![Coverage Status](https://coveralls.io/repos/github/lfernan/MLMT/badge.svg?branch=master)](https://coveralls.io/github/lfernan/MLMT?branch=master)
 
 ## Autor
 
